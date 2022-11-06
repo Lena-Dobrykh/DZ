@@ -96,8 +96,8 @@ if __name__ =='__main__':
         car = car2,
         remedy = remedy2)
     print(client1,master1,car1,malfunction1,remedy1,now)
-    print(check1,now)
-    print(check2,now)
+    print(check1)
+    print(check2)
     check1.receive_repair(car1)
     check2.receive_repair(car2)
     check3.receive_repair(car2)
